@@ -30,7 +30,7 @@ python3 main.py fichier_gold.json fichier_transcript.json --port XXXX --asid XXX
 *Notes : suivre l'ordre des arguments obligatoires : PDF puis Trasncript*
 
 
-### ARGUMENTS pour `main.py` :
+#### ARGUMENTS pour `main.py` :
 
 L'option `-h` affiche le message help
 
@@ -44,7 +44,7 @@ L'option `--port` et `--asid` permet de spécifier les identifiants.
 
 L'option `--architecture` a uniquement 2 arguments possibles `otto` ou `daia`, cette option permet de spécifier l'architecture d'un fichier json
 
-### INPUTS/OUTPUT pour `main.py`
+#### INPUTS/OUTPUT pour `main.py`
 
 Ce workflow nécessite deux **inputs** différents :
 
