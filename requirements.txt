@@ -1,0 +1,10 @@
+streamlit
+re
+pandas
+numpy
+sentence-transformers
+scikit-learn
+torch
+stanza
+minineedle
+requests
