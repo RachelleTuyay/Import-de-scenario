@@ -121,7 +121,7 @@ Pour lancer le workflow avec `app.py`, voilà un exemple de commande :
 streamlit run app.py
 ```
 #### INPUTS/OUTPUT pour `app.py`
-Il est possible d'entré 2 fichiers : un PDF et une transcription brute suivant les architectures précédemment décrite. Ainsi que d'utiliser déjà des fichiers prétraités au préalaable.
+Il est possible d'entrer 2 fichiers : un PDF (scénario validé) et une transcription brute (en json) suivant les architectures précédemment décrite. Ainsi que d'utiliser déjà des fichiers prétraités au préalaable.
 
 ---
 
