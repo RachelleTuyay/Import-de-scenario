@@ -114,12 +114,14 @@ Ce workflow nécessite deux **inputs** différents :
 L'**output** du workflow sera toujours en json en conservant l'architecture spécifiée en entré.
 
 ### Avec `app.py` : 
-**Le script `app.py` lancera tout le workflow.**
+**Le script `app.py` lancera le workflow sur une interface web utilisateur.**
 
 Pour lancer le workflow avec `app.py`, voilà un exemple de commande :
 ```
 streamlit run app.py
 ```
+#### INPUTS/OUTPUT pour `app.py`
+Il est possible d'entré 2 fichiers : un PDF et une transcription brute suivant les architectures précédemment décrite. Ainsi que d'utiliser déjà des fichiers prétraités au préalaable.
 
 ---
 
