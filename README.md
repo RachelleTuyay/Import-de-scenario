@@ -1,4 +1,10 @@
 # Import de scénario
+Ce projet consiste à développer un plugin d'import de scénario intégré au logiciel de sous-titrage/audiodescription OTTO. Son objectif est d'assister les sous-titreurs en corrigeant les transcriptions automatiques à partir de scénarios validés, notamment en améliorant l'identification des locuteurs et l'association des scènes aux répliques.
+
+Ce plugin **corrige environ 60% des locuteurs** et **indexe 80% les scènes au répliques** afin d'accélérer la production de relevés de dialogues, de sous-titres SME (sourds et malentendants), ainsi que de faciliter l'audiodescription et l'adaptation multilingue.
+
+Il s'appuie uniquement sur des scénarios validé de *Un si grand soleil* (USGS) et leurs transcriptions automatiques afin d'étudier dans quelle mesure une ressource textuelle fiable peut améliorer la qualité de correction des transcriptions générées automatiquement.
+
 
 ## DEPENDANCES
 Toutes les dépendance utilisées sont dans `requirements.txt`
