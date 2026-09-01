@@ -15,6 +15,12 @@ Il faudra une clé API Mistral.
 
 
 ## LANCEMENT
+
+Il est possible de lancer le projet de deux manières.
+
+### Avec `main.py` : 
+**Le script `main.py` lancera tout le workflow dans le terminal.**
+
 Pour lancer le workflow, voilà des exemples de commande :
 
 ```
@@ -24,11 +30,7 @@ python3 main.py fichier_gold.json fichier_transcript.json --port XXXX --asid XXX
 *Notes : suivre l'ordre des arguments obligatoires : PDF puis Trasncript*
 
 
-**Le script `main.py` lancera tout le workflow.**
-
-
-
-### ARGUMENTS
+### ARGUMENTS pour `main.py` :
 
 L'option `-h` affiche le message help
 
@@ -42,9 +44,7 @@ L'option `--port` et `--asid` permet de spécifier les identifiants.
 
 L'option `--architecture` a uniquement 2 arguments possibles `otto` ou `daia`, cette option permet de spécifier l'architecture d'un fichier json
 
-
-
-## INPUTS/OUTPUT
+### INPUTS/OUTPUT pour `main.py`
 
 Ce workflow nécessite deux **inputs** différents :
 
@@ -112,6 +112,14 @@ Ce workflow nécessite deux **inputs** différents :
 
 
 L'**output** du workflow sera toujours en json en conservant l'architecture spécifiée en entré.
+
+### Avec `app.py` : 
+**Le script `app.py` lancera tout le workflow.**
+
+Pour lancer le workflow avec `app.py`, voilà un exemple de commande :
+```
+streamlit run app.py
+```
 
 ---
 
