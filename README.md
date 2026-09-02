@@ -7,7 +7,7 @@ Il s'appuie uniquement sur des scénarios validé de *Un si grand soleil* (USGS)
 
 
 ## DEPENDANCES
-Toutes les dépendance utilisées sont dans `requirements.txt`
+Toutes les dépendance utilisées sont dans `requirements.txt` (here)[requirements.txt]
 
 Pour ce workflow, j'utilise `python 3.10`
 
